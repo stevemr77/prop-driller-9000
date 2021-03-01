@@ -7,7 +7,7 @@ import Header from './Components/Header';
 export default class App extends React.Component {
   state = {
     proptimusLogo: 'https://i.pinimg.com/originals/f8/7d/ec/f87dec9d6334af383a27f73e48ccf154.png',
-    proptimusii: [
+    proptimii: [
       {
         id: 93,
         name: 'alpha',
