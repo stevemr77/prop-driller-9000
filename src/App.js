@@ -4,6 +4,8 @@ import './App.css';
 
 import Header from './Components/Header';
 
+import TransformersSection from './Containers/TransformersSection';
+
 export default class App extends React.Component {
   state = {
     proptimusLogo: 'https://i.pinimg.com/originals/f8/7d/ec/f87dec9d6334af383a27f73e48ccf154.png',
@@ -28,7 +30,8 @@ export default class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Header />
+        <Header logo={this.state.proptimusLogo} />
+        <TransformersSection proptimii={this.state.proptimii} />
       </div>
     );
   }
